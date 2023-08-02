@@ -1,6 +1,7 @@
 import React from "react";
 import { PRODUCTS } from "../../products";
 import Product from "./product";
+import "./shop.css"
 
 export default function Shop ()  {
     return(
@@ -10,7 +11,7 @@ export default function Shop ()  {
             </div>
             <div className="products">
                 {PRODUCTS.map(product => (
-                    <Product data={product}/>
+                    <Product data={product} key={Math.random()}/>
                 ))}
             </div>
         </div>
