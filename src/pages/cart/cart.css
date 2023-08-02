@@ -48,6 +48,11 @@
   cursor: pointer;
 }
 
+.b-h{
+  text-decoration: none;
+  color: white;
+}
+
 input[type="number"] {
   width: 100px;
   text-align: center;
