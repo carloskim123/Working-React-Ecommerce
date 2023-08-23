@@ -10,13 +10,13 @@ export default function App() {
   return (
     <div>
       <ShopContextProvider>
-        <Router>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Shop />} />
-            <Route path="/cart" element={<Cart />} />
-          </Routes>
-        </Router>
+          <Router>
+            <Navbar />
+            <Routes>
+              <Route path="/" element={<Shop />} />
+              <Route path="/cart" element={<Cart />} />
+            </Routes>
+          </Router>
       </ShopContextProvider>
     </div>
   );

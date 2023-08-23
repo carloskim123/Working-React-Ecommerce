@@ -7,9 +7,8 @@ export default function Product(props) {
 
   const cartItemCount = cartItems[id];
 
-
   return (
-    <div className="product">
+    <div className="product" key={id}>
       <img src={productImage} />
       <div className="description">
         <p>
@@ -22,4 +21,4 @@ export default function Product(props) {
       </button>
     </div>
   );
-};
+}

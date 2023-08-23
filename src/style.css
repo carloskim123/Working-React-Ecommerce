@@ -3,5 +3,6 @@ body{
   overflow: auto;
 }
 *{
+  font-weight: bold;
   font-family: Jetbrains Mono;
 }
