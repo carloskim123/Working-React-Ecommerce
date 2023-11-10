@@ -6,6 +6,7 @@ import Shop from "./pages/shop/shop";
 import Cart from "./pages/cart/cart";
 import ShopContextProvider from "./context/shop-context";
 import Checkout from "./pages/cart/checkout";
+import { Success } from "./pages/shop/success";
 
 export default function App() {
   return (
@@ -17,6 +18,8 @@ export default function App() {
             <Route path="/" element={<Shop />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/checkout" element={<Checkout />} />
+            <Route path="/success" element={<Success />} />
+
           </Routes>
         </Router>
       </ShopContextProvider>

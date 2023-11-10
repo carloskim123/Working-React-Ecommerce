@@ -17,7 +17,6 @@ function ShopContextProvider(props) {
     const addToCart = (itemId) => {
         setCartItems((prev) => {
             const newCart = { ...prev, [itemId]: (prev[itemId] || 0) + 1 };
-            console.log('New Cart:', newCart);
             return newCart;
         });
     };
