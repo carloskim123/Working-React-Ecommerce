@@ -29,7 +29,11 @@ export default function Cart() {
             Continue Shopping
           </Link>
         </button>
-        <button>Checkout</button>
+        <button>
+          <Link className="b-h" to="/checkout">
+            Checkout
+          </Link>
+     </button>
       </div>
     </div>
   );
